@@ -26,7 +26,7 @@ function Feed (){
     function deletePost(id){
         api.delete(`/post/${id}`)
 
-        setPost(post.filter(posts => posts.id !== id))
+        setPost(post.filter(poste => poste.id !== id))
     }
 
     return(

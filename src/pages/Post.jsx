@@ -31,7 +31,7 @@ function Post (){
         navigate('../')
     })
     .cath(() => {
-        console.log(erros)
+        console.log(errors)
     })
 
     return(
